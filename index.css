@@ -1,0 +1,203 @@
+/* three help notes below */
+/* *{outline:1px dotted black} */
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+  font-family: Poppins;
+}
+
+header > div {
+  padding: 0 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+}
+
+/* NAV BAR */
+
+nav {
+  width: 600px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.black-heart {
+  width: 20px;
+  margin-right: 1rem;
+}
+
+
+  /* SEARCH BAR LINE */
+       /*- Cannot figure this search bar section out >:( Flexbox doesnt seem to move anything in here */
+
+#main-logo {
+  width: 60px;
+}
+
+#magnifying-glass{
+  width: 20px;
+}
+
+#search-button {
+  background-color: #FB3E44; 
+  border: none;
+  color: white;
+  padding: 8px 15px;
+  margin: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 100;
+  font-family: poppins;
+  letter-spacing: 1px;
+  
+}
+
+#join-button {
+  font-family: poppins;
+  font-size: 14px;
+  background-color: white;
+  padding: 4px 15px;
+  border-width: thin;
+  border-radius: 1px;
+  box-shadow: 1px 1px #888888;
+}
+
+#login-link {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
+
+/* SECTION ONE ~Build Amazing Things~ */
+
+#section-one h1 {
+  text-align: center;
+  font-size: 60px;
+  font-weight: bold;
+  padding: 10px 0 0 0;
+  margin-bottom: 15px;
+}
+        /* bolding h1 doesnt seem to work */
+
+#section-one p {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 45px;
+}
+
+#section-one {
+  height: 470px;
+  background-color: rgba(232,217,217,.3);
+  padding: 1px;
+}
+
+.centered {    
+    text-align: center;
+}
+
+.section-one-button {
+  text-decoration: none;
+  padding: 12px 60px;
+  border: none;
+}
+
+
+#join-for-free-button {
+  background-color: white;
+  font-size: 14px;
+  padding: 15px 50px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+#see-plans-button {
+  background-color: #FB3E49;
+  color: white;
+  font-family: Poppins;
+  box-shadow: 8px 8px 0 rgba(251,59,73,.2);
+  /* margin-left: 460px; */
+}
+
+/* SECTION TWO ~PINK HEXAGON~*/
+
+#pink-hexagon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  width: 230px;
+}
+
+#section-two-header {
+   transform: skew(9deg,0deg);
+   font-style: italic;
+   font-size: 35px;
+   margin: 50px 260px 15px 260px;
+   text-align: center;
+   background-color: rgba(255,204,53,.4);
+}
+
+#section-two p {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 45px;
+  margin-left: 350px;
+  margin-right: 350px;
+}
+
+#section-two {
+  height: 600px;
+}
+
+/*SECTION THREE ~footer features~*/
+
+#section-three {
+  display: flex;
+}
+
+#section-three img {
+  width: 35px;
+  height: 35px;
+  margin-right: 280px;
+}
+
+#section-three h4 {
+  color: #ED1C24;
+  border-color: #997300;
+  border-style: solid;
+  margin-right: 150px;
+  padding: 15px;
+}
+
+#section-three p {
+  margin: auto;
+}
+
+#org-button {
+  background-color: black;
+  color: white;
+  font-family: Poppins;
+  font-size: 20px;
+  box-shadow: 8px 8px 0 rgba(128,83,35,.2);
+  text-decoration: none;
+  padding: 20px 130px;
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  display: flex;
+}
